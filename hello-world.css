@@ -5,13 +5,17 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 input {
     background-color: black;
     color: greenyellow;
     border: 1px solid greenyellow;
     border-radius: 5px;
     padding: 10px;
-    outline: none;
+    outline-color: greenyellow;
 }
 
 button{
@@ -21,4 +25,10 @@ button{
     padding: 10px;
     font-size: 12px !important;
     border: 1px solid greenyellow;
+}
+
+button:hover {
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
 }
